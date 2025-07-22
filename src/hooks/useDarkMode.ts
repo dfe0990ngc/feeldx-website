@@ -7,8 +7,8 @@ export const useDarkMode = () => {
     if (saved !== null) {
       return JSON.parse(saved);
     }
-    // Fall back to system preference
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Default to dark mode
+    return true;
   });
 
   useEffect(() => {
