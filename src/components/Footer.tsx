@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, ArrowRight } from 'lucide-react';
+import FeelDXLogo from './FeelDXLogo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -64,7 +65,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <h2 className="text-2xl font-bold text-primary mb-4">FeelDX</h2>
+              <div className="mb-4">
+                <FeelDXLogo 
+                  className="text-primary transition-colors duration-300" 
+                  width={120} 
+                  height={31} 
+                />
+              </div>
               <p className="text-gray-300 leading-relaxed">
                 Your trusted partner in construction technology. We help construction companies navigate 
                 the BIM landscape with innovative solutions and expert implementation services.

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import DarkModeToggle from './DarkModeToggle';
+import FeelDXLogo from './FeelDXLogo';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,11 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-primary dark:text-primary">FeelDX</span>
+              <FeelDXLogo 
+                className="text-primary dark:text-primary transition-colors duration-300" 
+                width={120} 
+                height={31} 
+              />
             </div>
           </div>
 
