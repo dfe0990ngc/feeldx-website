@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "app": "sketch",
+    "version": "1.0.0",
+    "name": "FeelDX Design System"
+  },
+  "document": {
+    "colorVariables": [
+      {
+        "name": "Primary/500",
+        "value": "#86906C"
+      },
+      {
+        "name": "Secondary/800", 
+        "value": "#40472D"
+      },
+      {
+        "name": "Dark",
+        "value": "#242424"
+      },
+      {
+        "name": "White",
+        "value": "#FFFFFF"
+      }
+    ],
+    "textStyles": [
+      {
+        "name": "Heading 1",
+        "fontFamily": "-apple-system",
+        "fontSize": 60,
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      {
+        "name": "Heading 2",
+        "fontFamily": "-apple-system",
+        "fontSize": 36,
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      {
+        "name": "Heading 3",
+        "fontFamily": "-apple-system",
+        "fontSize": 24,
+        "fontWeight": 600,
+        "lineHeight": 1.3
+      },
+      {
+        "name": "Body Large",
+        "fontFamily": "-apple-system",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      {
+        "name": "Body",
+        "fontFamily": "-apple-system",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Button/Primary",
+        "width": 200,
+        "height": 48,
+        "backgroundColor": "#86906C",
+        "borderRadius": 8,
+        "textColor": "#FFFFFF"
+      },
+      {
+        "name": "Button/Secondary",
+        "width": 200,
+        "height": 48,
+        "backgroundColor": "transparent",
+        "borderColor": "#40472D",
+        "borderWidth": 2,
+        "borderRadius": 8,
+        "textColor": "#40472D"
+      },
+      {
+        "name": "Card/Service",
+        "width": 350,
+        "height": 400,
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#F3F4F6",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "shadow": "0 1px 3px rgba(0,0,0,0.1)"
+      }
+    ]
+  }
+}
