@@ -2,6 +2,8 @@
 
 This directory contains comprehensive design documentation and assets for the FeelDX website project.
 
+demo: https://feeldx-website.vercel.app/
+
 ## 📁 File Structure
 
 ```
